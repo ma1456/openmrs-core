@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Source Code') {
             steps {
-                git url: 'https://github.com/GitPracticeRepo/openmrs-core.git', 
+                git url: 'https://github.com/ma1456/spring-petclinic.git', 
                 branch: 'master'
             }
 
